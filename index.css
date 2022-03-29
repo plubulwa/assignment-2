@@ -9,7 +9,10 @@ body {
 
 .section {
     text-align: justify;
-    
+    width: 100%;
+    border: 2px solid #23242788;
+    border-radius: 1em;
+
 }
 
 
@@ -18,3 +21,20 @@ h1 {
     color: Blue;
 }
 
+table{
+    margin: auto;
+    border-collapse: collapse;
+}
+
+table th, tr, td {
+    border: 1px black solid;
+
+
+}
+th{
+    font-weight: bold;
+}
+
+td{
+  width: 10%;
+}
